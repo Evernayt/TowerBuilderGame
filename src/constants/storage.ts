@@ -1,0 +1,3 @@
+const MAX_SCORE_KEY = 'MAX_SCORE_KEY';
+
+export {MAX_SCORE_KEY};
