@@ -10,7 +10,11 @@ const MARGIN_SZIE = 10;
 const MAX_BOXES = 10;
 
 const GAME_ZONE_HEIGHT =
-  SIZES.height - SIZES.statusBarHeight - HEADER_HEIGHT * 2 - MARGIN_SZIE * 4;
+  SIZES.height -
+  SIZES.statusBarHeight -
+  SIZES.navBarHeight -
+  HEADER_HEIGHT * 2 -
+  MARGIN_SZIE;
 
 const BOX_HEIGHT = GAME_ZONE_HEIGHT / 12;
 const BOX_WIDTH = (BOX_HEIGHT / 100) * BOX_IMAGE_RATIO;

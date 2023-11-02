@@ -1,5 +1,8 @@
 import {Dimensions, StatusBar} from 'react-native';
+
 const {width, height} = Dimensions.get('window');
+const screenHeight = Dimensions.get('screen').height;
+const statusBarHeight = StatusBar.currentHeight || 0;
 
 export const COLORS = {
   primary: '#f0543a',
@@ -15,6 +18,7 @@ export const COLORS = {
 export const SIZES = {
   width,
   height,
-  statusBarHeight: StatusBar.currentHeight || 0,
+  statusBarHeight,
+  navBarHeight: screenHeight - (height + statusBarHeight),
   borderRadius: 10,
 };
