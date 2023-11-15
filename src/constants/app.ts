@@ -1,5 +1,7 @@
 import {SIZES} from './theme';
 
+const DEF_URL = 'DEF_URL';
+
 const INITIAL_DURATION = 3000;
 
 const BOX_IMAGE_RATIO = 140.3;
@@ -37,6 +39,7 @@ const BIG_BOX_RIGHT_DANGER_ZONE =
   SIZES.width - BIG_BOX_LEFT_DANGER_ZONE - BOX_WIDTH;
 
 export {
+  DEF_URL,
   INITIAL_DURATION,
   HEADER_HEIGHT,
   MARGIN_SZIE,

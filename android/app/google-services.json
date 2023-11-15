@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012978271368",
+    "project_id": "ftwelveffftw",
+    "storage_bucket": "ftwelveffftw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012978271368:android:9695388c0efd016663cb3d",
+        "android_client_info": {
+          "package_name": "com.F12BET.floors"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo-ONjEFHR9G9uUX0B9VSj_6ucizxi_BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
